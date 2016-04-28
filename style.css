@@ -1,0 +1,48 @@
+h1{
+  text-align: center;
+}
+
+span{
+  border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border: 0px solid #fff;
+  background-color:  #CE0000;
+  color: #fff;
+  padding: 3px;
+}
+
+.span_name{
+  margin-right: 20px;
+}
+
+.span_email{
+  margin-right: 25px;
+}
+
+.prefecture{
+  padding-left: 25px;
+}
+
+/*768px*/
+
+@media screen and (max-width: 768px){
+  .prefecture{
+    padding-left: 54px;
+}
+
+/*640px*/
+
+@media screen and (max-width: 640px){
+  .prefecture{
+    padding-left: 20px;
+}
+
+/*320px*/
+
+@media screen and (max-width: 320px){
+
+h1{
+  font-size: 150%;
+}
+
